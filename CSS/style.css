@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+.indice{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 560px;
+ 
+}
+.indice img{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 120px;
+  width: 340px;
+  border-radius: 35px;
+  
+  
+}
+
+.painel h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 35px;
+  width: 197px;
+  height: 82px;
+  font-family: 'Roboto' , sans-serif;
+  
+}
+
+.title-curiosities h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: #000000;
+}
+.curiosities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.curiosities img{
+  
+  border-radius: 30px;
+  width: 335px;
+  height: 534px;
+}
+.video h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #000000;
+  padding: 30px;
+}
+
+.video .video1{
+  display: flex;
+  justify-content: center;
+  width: 35px;
+  height: 534px;
+  border-radius: 100%;
+}
+.name h2{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: 'Roboto' , sans-serif;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+.rodape{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.rodape img{
+  width: 134px;
+  border-radius: 100%;
+}
+
+.rodape a{
+  font-size: 30px;
+  font-family: 'Roboto' , sans-serif;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+
+/*Desktop*/
+@media (min-width:550px){
+  .indice{
+   flex-direction: row;
+   width:100%;
+   height: 213px;
+   
+  }
+
+  .painel {
+    display: flex;
+    flex-direction: row;
+  }
+  .box-gray img{
+    width: 100%;
+    height: 532px;
+    background-color: gray;
+    margin-bottom:30px ;
+  }
+  .title-curiosities h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .curiosities{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .video h2{
+    display: flex;
+    justify-content: center;
+  }
+  .video1{
+    
+    display: flex;
+    justify-content: center;
+  }
+  .rodape {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 414px;
+
+  }
+  
+    
+
+    
+  }
