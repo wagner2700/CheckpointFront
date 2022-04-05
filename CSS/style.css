@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+  font-family: 'Roboto' , sans-serif;
+
 }
 
 .indice{
@@ -51,12 +52,13 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .curiosities img{
   
   border-radius: 30px;
-  width: 335px;
+  width: 430px;
   height: 534px;
 }
 .video h2{
@@ -74,33 +76,63 @@
   border-radius: 100%;
 }
 .name h2{
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   font-size: 50px;
   font-family: 'Roboto' , sans-serif;
-  margin-top: 20px;
   margin-bottom: 40px;
 
 }
-.rodape{
+.wraper{
+  width: 100%;
+  background-color: gray;
+  
+  
+}
+.footer{
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: space-around;
+  
+  height: 300px;
 }
 
-
-.rodape img{
-  width: 134px;
+.linkedin img{
+  display: flex;
+  width: 140px;
   border-radius: 100%;
 }
 
-.rodape a{
-  font-size: 30px;
-  font-family: 'Roboto' , sans-serif;
+.linkedin a{
+  display: flex;
+  justify-content: space-around;
   text-decoration: none;
-  color: #000000;
+  margin: 25px;
+
 }
+.github img{
+  display: flex;
+  width: 140px;
+  border-radius: 100%;
+}
+
+.github a{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  margin: 25px;
+}
+.title-pizza{
+  display: flex;
+}
+
+.title{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  text-decoration:underline 2px ;
+}
+
 
 
 
