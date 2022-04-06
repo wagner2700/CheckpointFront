@@ -54,6 +54,9 @@
   gap: 30px;
   flex-wrap: wrap;
 }
+.logo img{
+  width: 300px;
+}
 
 .curiosities img{
   
@@ -68,13 +71,6 @@
   padding: 30px;
 }
 
-.video .video1{
-  display: flex;
-  justify-content: center;
-  width: 35px;
-  height: 534px;
-  border-radius: 100%;
-}
 .name h2{
   padding-top: 30px;
   display: flex;
@@ -87,13 +83,13 @@
 .wraper{
   width: 100%;
   background-color: gray;
+  box-shadow: 0 0 30px rgb(59, 4, 210);
   
   
 }
 .footer{
   display: flex;
   justify-content: space-around;
-  
   height: 300px;
 }
 
@@ -131,6 +127,11 @@
   justify-content: space-around;
   margin-bottom: 15px;
   text-decoration:underline 2px ;
+}
+.vid{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 
