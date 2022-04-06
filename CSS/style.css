@@ -128,13 +128,15 @@
   margin-bottom: 15px;
   text-decoration:underline 2px ;
 }
-.vid{
+.vid {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-
-
+.perso-video{
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(2, 2, 148);
+}
 
 
 
